@@ -1,0 +1,30 @@
+.integration-section {
+    height: 550px;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.content-type-selector {
+    width: 155px;
+    padding-bottom: 20px;
+    margin-left: 34px;
+}
+
+.integration-section .banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.integration-section .banner-content .e-audio::before,
+.integration-section .banner-content .e-listen-icon::before {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+    .integration-section {
+        width: 100%;
+    }
+}
